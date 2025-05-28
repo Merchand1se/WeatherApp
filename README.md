@@ -7,15 +7,15 @@
 
 🛠 Технологический стек
 
-Python 3.13
-Django
-Docker (оркестрация)
+Python 3.13  
+Django  
+Docker  
 
 ⏬Установка
 
-python -m venv venv source
-venv/bin/activate
-docker-compose up -d --build
+python -m venv venv source  
+venv/bin/activate  
+docker-compose up -d --build  
 
 -Для запуска достаточно запустить docker-compose, он установит requirements.txt, примении миграции и запустит сервер.
 
